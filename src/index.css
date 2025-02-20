@@ -32,5 +32,5 @@
 }
 
 .card-bg {
-  @apply bg-bg bg-[url("./assets/grain1.png")] bg-repeat bg-contain bg-blend-soft-light shadow-[inset_0px_0px_10px_#1F2937] border-2 border-[#1F2937] rounded-[14px] p-6  place-content-center place-items-center;
+  @apply  bg-bg bg-[url("./assets/grain1.png")] bg-repeat bg-contain bg-blend-soft-light shadow-[inset_0px_0px_10px_#1F2937] border-2 border-[#1F2937] rounded-[14px]   place-content-center place-items-center overflow-hidden;
 }
