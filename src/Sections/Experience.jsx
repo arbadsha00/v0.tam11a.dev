@@ -40,9 +40,9 @@ const Experience = () => {
             alt="definedsolution logo"
           />
           <p className="text-lg text-secondary-1 font-medium font-secondary mt-3">
-            Co-Founder & Senior Software Engineer
+            Senior Software Engineer
           </p>
-          <p className="text-secondary-2 font-secondary">Oct 2023~</p>
+          <p className="text-secondary-2 font-secondary">Oct 2021 - Oct 2023</p>
         </div>
       </div>
       <div className="card-bg relative min-w-[375px] lg:min-w-0">
@@ -60,9 +60,9 @@ const Experience = () => {
             alt="definedsolution logo"
           />
           <p className="text-lg text-secondary-1 font-medium font-secondary mt-3">
-            Co-Founder & Senior Software Engineer
+          Junior Full Stack Engineer 
           </p>
-          <p className="text-secondary-2 font-secondary">Oct 2023~</p>
+          <p className="text-secondary-2 font-secondary">Mar 2021 - Sep 2021</p>
         </div>
       </div>
     </div>
