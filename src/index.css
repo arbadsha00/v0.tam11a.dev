@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap");
+
+@import "tailwindcss";
+
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("./fonts/ClashDisplay-Regular.woff2") format("woff2"),
+    url("./fonts/ClashDisplay-Regular.woff") format("woff"),
+    url("./fonts/ClashDisplay-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("./fonts/ClashDisplay-Medium.woff2") format("woff2"),
+    url("./fonts/ClashDisplay-Medium.woff") format("woff"),
+    url("./fonts/ClashDisplay-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@theme {
+  --color-primary: #00ff8f;
+  --color-secondary-1: #e2e8f0;
+  --color-secondary-2: #94a3b8;
+
+  --color-bg: #0b0c10;
+  --font-primary: "Bruno Ace", serif;
+  --font-secondary: "ClashDisplay", "sans-serif";
+}
+
+.card-bg {
+  @apply bg-bg bg-[url("./assets/grain1.png")] bg-repeat bg-contain bg-blend-soft-light shadow-[inset_0px_0px_10px_#1F2937] border-2 border-[#1F2937] rounded-[14px] p-6  place-content-center place-items-center;
+}
