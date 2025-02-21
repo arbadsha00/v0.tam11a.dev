@@ -14,53 +14,53 @@ const Works = () => {
           some of my works
         </h1>
       </div>
-      <a href="" className="card-bg p-0  md:row-span-6  ">
+      <a href="" className="card-bg p-0  md:row-span-6   ">
         <img
           src={work1}
           className="object-cover object-top  w-full h-full "
-          alt=""
+          alt="website image"
         />
       </a>
       <a href="" className="card-bg p-0 md:row-span-3   lg:row-span-4 ">
         <img
           src={work2}
           className="object-cover object-top  w-full h-full "
-          alt=""
+          alt="website image"
         />
       </a>
       <a href="" className="card-bg p-0 md:row-span-2  ">
         <img
           src={work3}
           className="object-cover object-left w-full h-full "
-          alt=""
+          alt="website image"
         />
       </a>
       <a href="" className="card-bg p-0 md:row-span-3  ">
         <img
           src={work4}
           className="object-cover object-top   w-full h-full "
-          alt=""
+          alt="website image"
         />
       </a>
       <a href="" className="card-bg p-0 md:row-span-3   lg:row-span-4 ">
         <img
           src={work5}
-          className="object-cover object-top  w-full  h-full "
-          alt=""
+          className="object-cover object-top  w-full h-full "
+          alt="website image"
         />
       </a>
       <a href="" className="card-bg p-0   md:row-span-2 ">
         <img
           src={work6}
           className="object-cover object-top  w-full h-full "
-          alt=""
+          alt="website image"
         />
       </a>
       <a href="" className="card-bg p-0  md:row-span-2">
         <img
           src={work7}
           className="object-cover object-top  w-full h-full  "
-          alt=""
+          alt="website image"
         />
       </a>
     </div>

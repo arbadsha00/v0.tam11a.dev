@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="grid grid-cols-5 grid-rows-9 md:grid-rows-8  md:grid-cols-6  lg:grid-cols-13 lg:grid-rows-4 gap-2 md:gap-4 ">
       <div className=" card-bg   col-span-2 row-span-2">
-        <img src={logo} className="w-14 md:w-18" alt="logo" />
+        <img src={logo} className="w-14 md:w-18" alt="tam11a logo" />
       </div>
       <div className=" card-bg col-span-3 row-span-2 md:col-span-4  lg:col-span-5  ">
         <div>
@@ -24,7 +24,11 @@ const Hero = () => {
           alt="Profile Image"
         />
       </div>
-      <a href="" className="card-bg hover-effect">
+      <a
+        href="https://www.linkedin.com/in/tam11a/"
+        target="_blank"
+        className="card-bg hover-effect"
+      >
         <Icon
           className="text-secondary-2"
           icon="lucide:linkedin"
@@ -32,7 +36,7 @@ const Hero = () => {
           height="30"
         />
       </a>
-      <a href="" className="card-bg hover-effect">
+      <a className="card-bg hover-effect">
         <Icon
           className="text-secondary-2"
           icon="meteor-icons:discord"
@@ -40,7 +44,7 @@ const Hero = () => {
           height="30"
         />
       </a>
-      <a href="" className="card-bg hover-effect">
+      <a className="card-bg hover-effect">
         <Icon
           className="text-secondary-2"
           icon="lucide:facebook"
@@ -48,7 +52,11 @@ const Hero = () => {
           height="30"
         />
       </a>
-      <a href="" className="card-bg hover-effect">
+      <a
+        href="https://www.youtube.com/@tamslab"
+        target="_blank"
+        className="card-bg hover-effect"
+      >
         <Icon
           className="text-secondary-2"
           icon="icon-park-outline:youtube"
@@ -57,7 +65,11 @@ const Hero = () => {
         />
       </a>
 
-      <a href="" className="card-bg col-span-2 row-span-2 hover-effect">
+      <a
+        href="https://github.com/tam11a"
+        target="_blank"
+        className="card-bg col-span-2 row-span-2 hover-effect"
+      >
         <Icon
           className="text-secondary-2"
           icon="tdesign:logo-github"
@@ -76,7 +88,11 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <a href="" className="card-bg hover-effect">
+      <a
+        href="https://dribbble.com/tam11a/"
+        target="_blank"
+        className="card-bg hover-effect"
+      >
         <Icon
           className="text-secondary-2"
           icon="ri:dribbble-fill"
@@ -85,7 +101,7 @@ const Hero = () => {
         />
       </a>
       <a
-        href=""
+        href="mailto:ibrahimsadiktamim@gmail.com"
         className="card-bg hover-effect  col-span-4 md:col-span-3 flex gap-2"
       >
         <Icon

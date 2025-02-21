@@ -28,7 +28,7 @@
 
   --color-bg: #0b0c10;
   --font-primary: "Bruno Ace", serif;
-  --font-secondary: "ClashDisplay", "sans-serif";
+  --font-secondary: "ClashDisplay", sans-serif;
 }
 @layer components {
   .card-bg {
@@ -36,7 +36,7 @@
   }
 
   .hover-effect {
-    @apply hover:bg-[url("./assets/overlay2.png")] hover:bg-blend-normal hover:scale-110 transition-transform bg-cover bg-center  duration-300 ease-in-out   ;
+    @apply hover:bg-[url("./assets/overlay2.png")] hover:bg-blend-normal hover:scale-110 transition-transform bg-cover bg-center  duration-300 ease-in-out;
   }
 }
 .hide-scrollbar::-webkit-scrollbar {
