@@ -1,9 +1,9 @@
 import logo from "../assets/logo.svg";
-import image from "../assets/image.jpeg";
+import image from "../assets/image2 profile.png";
 import { Icon } from "@iconify/react/dist/iconify.js";
 const Hero = () => {
   return (
-    <div className="grid grid-cols-5 grid-rows-9 md:grid-rows-8  md:grid-cols-6  lg:grid-cols-13 lg:grid-rows-4 gap-2 md:gap-4">
+    <div className="grid grid-cols-5 grid-rows-9 md:grid-rows-8  md:grid-cols-6  lg:grid-cols-13 lg:grid-rows-4 gap-2 md:gap-4 ">
       <div className=" card-bg   col-span-2 row-span-2">
         <img src={logo} className="w-14 md:w-18" alt="logo" />
       </div>
@@ -24,7 +24,7 @@ const Hero = () => {
           alt="Profile Image"
         />
       </div>
-      <a href="" className="card-bg ">
+      <a href="" className="card-bg hover-effect">
         <Icon
           className="text-secondary-2"
           icon="lucide:linkedin"
@@ -32,7 +32,7 @@ const Hero = () => {
           height="30"
         />
       </a>
-      <a href="" className="card-bg ">
+      <a href="" className="card-bg hover-effect">
         <Icon
           className="text-secondary-2"
           icon="meteor-icons:discord"
@@ -40,7 +40,7 @@ const Hero = () => {
           height="30"
         />
       </a>
-      <a href="" className="card-bg ">
+      <a href="" className="card-bg hover-effect">
         <Icon
           className="text-secondary-2"
           icon="lucide:facebook"
@@ -48,7 +48,7 @@ const Hero = () => {
           height="30"
         />
       </a>
-      <a href="" className="card-bg ">
+      <a href="" className="card-bg hover-effect">
         <Icon
           className="text-secondary-2"
           icon="icon-park-outline:youtube"
@@ -57,7 +57,7 @@ const Hero = () => {
         />
       </a>
 
-      <a href="" className="card-bg col-span-2 row-span-2 ">
+      <a href="" className="card-bg col-span-2 row-span-2 hover-effect">
         <Icon
           className="text-secondary-2"
           icon="tdesign:logo-github"
@@ -76,7 +76,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <a href="" className="card-bg ">
+      <a href="" className="card-bg hover-effect">
         <Icon
           className="text-secondary-2"
           icon="ri:dribbble-fill"
@@ -84,7 +84,10 @@ const Hero = () => {
           height="30"
         />
       </a>
-      <a href="" className="card-bg  col-span-4 md:col-span-3 flex gap-2">
+      <a
+        href=""
+        className="card-bg hover-effect  col-span-4 md:col-span-3 flex gap-2"
+      >
         <Icon
           className="text-secondary-2"
           icon="majesticons:mail-line"

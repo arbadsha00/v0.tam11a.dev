@@ -32,13 +32,17 @@
 }
 @layer components {
   .card-bg {
-    @apply bg-bg bg-[url("./assets/grain1.png")] bg-repeat bg-contain bg-blend-soft-light shadow-[inset_0px_0px_10px_#1F2937] border-2 border-[#1F2937] rounded-[14px]   place-content-center place-items-center overflow-hidden p-4 md:p-6;
+    @apply bg-bg  bg-[url("./assets/grain1.png")] bg-repeat bg-contain bg-blend-soft-light shadow-[inset_0px_0px_10px_#1F2937] border-2 border-[#1F2937] rounded-[14px]   place-content-center place-items-center overflow-hidden p-4 md:p-6;
+  }
+
+  .hover-effect {
+    @apply hover:bg-[url("./assets/overlay2.png")] hover:bg-blend-normal hover:scale-110 transition-transform bg-cover bg-center  duration-300 ease-in-out   ;
   }
 }
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
 }
 .hide-scrollbar {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
