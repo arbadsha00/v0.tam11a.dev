@@ -1,6 +1,7 @@
 import Experience from "./Sections/Experience";
 import Hero from "./Sections/Hero";
 import Skills from "./Sections/Skills";
+import Works from "./Sections/Works";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Hero></Hero>
       <Experience></Experience>
       <Skills></Skills>
+      <Works></Works>
     </div>
   );
 };
